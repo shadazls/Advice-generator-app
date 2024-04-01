@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  
+  <title>Advice generator app</title>
+</head>
+
+<body class="h-screen w-screen flex items-center justify-center">
+
+  <div class="h-2/5 w-1/3 rounded-2xl element-bg-color flex flex-col items-center p-10 gap-10">
+    <h1 id="advice-id" class="text-advice-color text-2xl">Advice #117</h1>
+    <p id="advice-text" class="citation">&#8220It is easy to sit up and take notice, what's difficult is getting up and taking action.&#8221</p>
+    <img src="images/pattern-divider-desktop.svg" alt="">
+    <button id="get-advice" class="relative -bottom-16 rounded-full background-icon-color w-16 h-16 flex items-center justify-center active:scale-110">
+      <img src="images/icon-dice.svg" alt="">
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

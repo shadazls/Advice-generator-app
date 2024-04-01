@@ -1,0 +1,30 @@
+html {
+    background-color: hsl(218, 23%, 16%);
+    font-family: "Manrope", sans-serif !important;
+    font-weight: 800;
+}
+
+.element-bg-color {
+    background-color: hsl(217, 19%, 24%);
+}
+
+.text-advice-color {
+    color: hsl(150, 100%, 66%);
+}
+
+.citation {
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+}
+
+.background-icon-color {
+    background-color: hsl(150, 100%, 66%);
+}
+
+button {
+    transition: box-shadow 0.3s ease; /* Ajout de la transition */
+}
+
+button:hover {
+    box-shadow: 0rem 0rem 2rem #52ffa8;
+}
